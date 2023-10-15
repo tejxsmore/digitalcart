@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <div className="flex justify-between text-lg p-4 items-center bg-blue-300">
       <div className="font-semibold">
-        <a href="/">NFT ASSETS</a>
+        <a href="/">META ASSETS</a>
       </div>
       <div>
         <button className="border-2 border-black px-4 py-0.5 rounded-lg font-semibold">

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ArtCard({ title, img, floor, vol }) {
   return (
-    <div className="rounded-xl bg-white">
+    <div className="rounded-xl bg-white sm:w-auto ">
       <img src={img} alt={title} className="rounded-t-xl rounded-b-none" />
       <div className="flex items-center">
         <h2 className="p-2 text-lg font-bold">{title}</h2>

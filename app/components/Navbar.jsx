@@ -2,19 +2,16 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <div className="flex justify-between text-lg p-4 items-center bg-blue-300">
+    <div className="flex justify-between text-lg py-4 px-8 items-center bg-slate-900 text-white">
       <div className="font-semibold">
         <a href="/">META ASSETS</a>
       </div>
-      <div>
-        <button className="border-2 border-black px-4 py-0.5 rounded-lg font-semibold">
-          Login
-        </button>
-        <button className="mx-4">
-          <Image src="/img/user.png" width={20} height={20} alt="User" />
+      <div className="">
+        <button className="mx-8 pt-2">
+          <Image src="/img/profile.png" width={25} height={25} alt="Profile" />
         </button>
         <button>
-          <Image src="/img/cart.png" width={20} height={20} alt="Cart" />
+          <Image src="/img/bag.png" width={25} height={25} alt="Bag" />
         </button>
       </div>
     </div>

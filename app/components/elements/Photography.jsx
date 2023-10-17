@@ -4,7 +4,7 @@ import ArtCard from "./ArtCard";
 export default function Photography() {
   const { data } = photoStore;
   return (
-    <div className="p-4 bg-slate-900">
+    <div className="py-4 px-8 bg-slate-900">
       <h1 className="text-white text-lg font-semibold pb-4">
         Trending in Photography
       </h1>

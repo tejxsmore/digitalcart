@@ -10,7 +10,7 @@ export default function Card({ id, pid, price, img }) {
           alt={price}
           width={300}
           height={600}
-          className="rounded-t-xl"
+          className="rounded-t-xl h-80"
         />
         <p className="p-2">#{id}</p>
         <h3 className="px-2 pb-2">{price} ETH</h3>

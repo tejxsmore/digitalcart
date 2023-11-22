@@ -3,8 +3,8 @@ import Link from "next/link";
 /* eslint-disable @next/next/no-img-element */
 export default function Card({ id, pid, price, img }) {
   return (
-    <Link href={`${id}`}>
-      <div className="bg-white m-2 rounded-xl text-black font-semibold">
+    <Link href={`/item/${id}`}>
+      <div className="bg-slate-800 m-2 rounded-xl text-white font-semibold">
         <img
           src={img}
           alt={price}
@@ -12,8 +12,12 @@ export default function Card({ id, pid, price, img }) {
           height={600}
           className="rounded-t-xl h-80"
         />
-        <p className="p-2">#{id}</p>
-        <h3 className="px-2 pb-2">{price} ETH</h3>
+        <div className="flex justify-between items-center py-1">
+          <h3 className="p-2">{price} ETH</h3>
+          <button className="py-0.25 px-2 m-2 border-whiter border-2 rounded-lg text-sm font-normal">
+            #{id}
+          </button>
+        </div>
       </div>
     </Link>
   );

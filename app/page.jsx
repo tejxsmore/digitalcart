@@ -14,13 +14,13 @@ export default function Home() {
         </h3>
       </Link>
       <Art />
-      <Link href="/gaming">
+      <Link href="/game">
         <h3 className="py-4 px-8 bg-slate-900 text-white text-lg font-semibold pb-4">
           Trending in Gaming
         </h3>
       </Link>
       <Gaming />
-      <Link href="/photography">
+      <Link href="/photo">
         <h3 className="py-4 px-8 bg-slate-900 text-white text-lg font-semibold pb-4">
           Trending in Photography
         </h3>

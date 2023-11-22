@@ -1,10 +1,11 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import Link from "next/link";
 
 export default function ArtCard({ id, type, title, img, floor, vol }) {
   return (
     <Link href={`/${type}/${id}`}>
-      <div className="rounded-xl bg-white sm:w-80 w-56">
+      <div className="rounded-xl bg-slate-800 text-white sm:w-80 w-56">
         <img src={img} alt={title} className="rounded-t-xl h-80 w-full" />
         <div className="flex items-center">
           <h2 className="p-2 text-lg font-bold">{title}</h2>

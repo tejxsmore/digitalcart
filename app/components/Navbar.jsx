@@ -22,17 +22,14 @@ export default function Navbar() {
           </button>
         </div>
       </div>
-      <div className="py-4 px-8 flex bg-slate-900 text-white font-semibold">
-        <button className="py-2 px-4 mr-2 bg-slate-700 rounded-xl">
-          <Link href="/">All</Link>
-        </button>
-        <button className="py-2 px-4 mx-2 bg-slate-700 rounded-xl">
+      <div className="py-4 px-8 flex bg-slate-900 text-white font-semibold gap-x-4">
+        <button className="py-2 px-4  bg-slate-700 rounded-xl">
           <Link href="/art">Art</Link>
         </button>
-        <button className="py-2 px-4 mx-2 bg-slate-700 rounded-xl">
+        <button className="py-2 px-4  bg-slate-700 rounded-xl">
           <Link href="/game">Gaming</Link>
         </button>
-        <button className="py-2 px-4 ml-2 bg-slate-700 rounded-xl">
+        <button className="py-2 px-4 bg-slate-700 rounded-xl">
           <Link href="/photo">Photography</Link>
         </button>
       </div>

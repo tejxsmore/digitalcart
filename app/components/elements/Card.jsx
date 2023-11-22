@@ -10,7 +10,7 @@ export default function Card({ id, pid, price, img }) {
           alt={price}
           width={300}
           height={600}
-          className="rounded-t-xl h-80"
+          className="rounded-t-xl w-88"
         />
         <div className="flex justify-between items-center py-1">
           <h3 className="p-2">{price} ETH</h3>

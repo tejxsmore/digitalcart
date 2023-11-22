@@ -13,16 +13,23 @@ export default function ArtId() {
   return (
     <div>
       <Navbar />
-      <div className="py-4 px-8 flex flex-wrap bg-slate-900">
-        {gamepiece.map((game) => (
-          <Card
-            key={game.id}
-            id={game.id}
-            pid={game.pid}
-            price={game.price}
-            img={game.img}
-          />
-        ))}
+      <div className="sm:flex py-4 px-8 bg-slate-900">
+        <div className="bg-slate-900 pr-8 pb-4">
+          <button className="py-2 px-4  bg-slate-700 rounded-xl text-white font-semibold">
+            All
+          </button>
+        </div>
+        <div className=" flex flex-wrap bg-slate-900">
+          {gamepiece.map((game) => (
+            <Card
+              key={game.id}
+              id={game.id}
+              pid={game.pid}
+              price={game.price}
+              img={game.img}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );

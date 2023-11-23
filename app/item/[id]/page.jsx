@@ -38,7 +38,7 @@ export default function Item() {
       <Navbar />
       <div className="bg-slate-900 py-4 px-8 text-white text-2xl ">
         <div className="sm:flex">
-          <div className="sm:mr-10 rounded-xl sm:w-1/2 sm:mb-14">
+          <div className="sm:mr-8 rounded-xl sm:w-1/2 sm:mb-14">
             <div className="bg-slate-700 rounded-t-xl">
               <img src="/img/coins.png" alt="Eth" className="w-12 p-2" />
             </div>

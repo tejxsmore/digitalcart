@@ -8,7 +8,7 @@ export default function Navbar() {
         <div className="font-semibold">
           <a href="/">META ASSETS</a>
         </div>
-        <div className="">
+        <div className="flex items-center">
           <button className="mx-8 pt-2">
             <Image
               src="/img/profile.png"
@@ -17,12 +17,15 @@ export default function Navbar() {
               alt="Profile"
             />
           </button>
-          <button>
+          {/* <button>
             <Image src="/img/bag.png" width={25} height={25} alt="Bag" />
-          </button>
+          </button> */}
+          <Link href="/cart" className="mt-2">
+            <Image src="/img/bag.png" width={25} height={25} alt="Bag" />
+          </Link>
         </div>
       </div>
-      <div className="py-4 px-8 flex bg-slate-900 text-white font-semibold gap-x-4">
+      <div className="py-4 px-8 flex bg-slate-900 text-white font-semibold gap-x-7">
         <Link href="/art" className="py-2 px-4  bg-slate-700 rounded-xl">
           Art
         </Link>

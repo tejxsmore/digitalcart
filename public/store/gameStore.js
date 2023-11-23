@@ -4,6 +4,8 @@ export const gameStore = {
       id: 1,
       type: "game",
       title: "Zeeverse: Zee",
+      description:
+        "Zeeverse is a F2P monster-tamer MMORPG set in an indigenous fantasy world.Explore a mythical Spirit Realm as a young Shaman, train your collection of exotic battle companions called Zee, and take part in strategic turn-based battles to help protect Zeeverse from the looming corrupted forces",
       img: "https://i.seadn.io/s/raw/files/de7a593fadb09d3300bc2924ec85b2e0.png?auto=format&dpr=1&w=384",
       floor: 0.0048,
       items: 1627,
@@ -88,6 +90,8 @@ export const gameStore = {
       id: 2,
       type: "game",
       title: "Goons of Ballatroon",
+      description:
+        "Join the wild, meme-filled world of Balatroon. A gaming universe where the greatest rewards await players ready to risk it all! Powered by $GOB & $CHUNKS",
       img: "https://i.seadn.io/s/raw/files/8008556ea69b468dea6701825bf4b87c.png?auto=format&dpr=1&w=384",
       floor: 0.051,
       items: 9695,
@@ -172,6 +176,8 @@ export const gameStore = {
       id: 3,
       type: "game",
       title: "77-Bit",
+      description:
+        "A nostalgic-cyberpunk universe where 7777 characters come to life.",
       img: "https://i.seadn.io/gae/50eErCxPNMxD9141S8D0OIni7AplUe0kVLaP79UxsU2RskBbvVgekaIvgWBpQooLrj8DrErqWeLCs3OP5yuPqfWlOmcVexnZMz1T?auto=format&dpr=1&w=384",
       floor: 0.13,
       items: 7778,
@@ -256,6 +262,8 @@ export const gameStore = {
       id: 4,
       type: "game",
       title: "North star Avatars",
+      description:
+        "Each avatar will be unique and customized with traits generated randomly from the following characters of the manga - KENSHIRO, NANTO GENERAL SHIN, REI, JAGI, WASTELAND BANDIT.",
       img: "https://i.seadn.io/s/raw/files/b2ec452a12f54c0e824e6d549d5aa78a.jpg?auto=format&dpr=1&w=384",
       floor: 0.032,
       items: 2000,
@@ -340,6 +348,7 @@ export const gameStore = {
       id: 5,
       type: "game",
       title: "Seedworld Vanguards",
+      description: "Adventurers who are here to conquer web3gaming.",
       img: "https://i.seadn.io/s/raw/files/95d4cf310a987623d34ebc5f2abdb442.png?auto=format&dpr=1&w=384",
       floor: 0.06,
       items: 4129,
@@ -424,6 +433,8 @@ export const gameStore = {
       id: 6,
       type: "game",
       title: "Skyborne",
+      description:
+        "Skyborne - Genesis Immortals is Skyborne Legacy's first and most elite group of heroes.Each Genesis Immortal comes equipped with powerful traits, enhancing their abilities and making them valuable assets in the world of Skyborne Legacy. The collection will include six exclusive 1-of-1s, each with unique bespoke artwork, animation, and legendary in-game traits.NFT holders are invited to discover Skyborne Genesis, a prologue set within the Skyborne universe. Go on quests, explore the world and gather resources.",
       img: "https://i.seadn.io/s/raw/files/be4ae7d01550486aab662d1bc6636575.png?auto=format&dpr=1&w=384",
       floor: 0.025,
       items: 9999,
@@ -508,6 +519,8 @@ export const gameStore = {
       id: 7,
       type: "game",
       title: "Particle Pack",
+      description:
+        "The pARticle pack is the Genesis collection introducing the lore of the Particle Ink Metaverse while also engaging the community through Augmented Reality (AR) gameplay.  This metaverse is accessible through numerous portals, that include next gen AR gaming and IRL activations, each leading to a new adventure aimed at fostering creativity and interactivity.",
       img: "https://i.seadn.io/s/raw/files/e91cfd124a8088cf518a286dec12d44b.jpg?auto=format&dpr=1&w=384",
       floor: 0.0062,
       items: 2222,
@@ -591,7 +604,9 @@ export const gameStore = {
     {
       id: 8,
       type: "game",
-      title: "Genesis Homes",
+      title: "ZTX Genesis Homes",
+      description:
+        "ZTX is a web3 virtual world empowering creators and communities. ZTX is building an immersive 3D open-world platform where users can enjoy social interactions, engage in games, and participate in governance and economics when creating and selling digital assets in the virtual realm.The ZTX Genesis Home Mint is the first-ever NFT collection to be released by ZTX. Minting on Arbitrum, the collection consists of 4,000 bespoke 3D-rendered District Homes, immersive and multilayered in-game assets that will serve as your home in ZTX.",
       img: "https://i.seadn.io/s/raw/files/d0a3dbcd85cc35b9b6ffb0d5498e9aaf.jpg?auto=format&dpr=1&w=384",
       floor: 0.23,
       items: 4000,

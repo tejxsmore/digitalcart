@@ -15,7 +15,7 @@ export default function ArtId() {
     <div>
       <Navbar />
       <div className="sm:flex py-4 px-8 bg-slate-900">
-        <div className="bg-slate-900 pr-8 pb-4">
+        <div className="bg-slate-900 pr-4 sm:pb-4 pb-8">
           <button className="py-2 px-4  bg-slate-700 rounded-xl text-white font-semibold">
             All
           </button>

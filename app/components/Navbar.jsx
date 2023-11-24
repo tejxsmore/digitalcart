@@ -6,7 +6,7 @@ export default function Navbar() {
     <div>
       <div className="flex justify-between text-lg py-4 px-8 items-center bg-slate-900 text-white">
         <div className="font-semibold">
-          <a href="/">META ASSETS</a>
+          <a href="/">Digital Cart</a>
         </div>
         <div className="flex items-center">
           <button className="mx-8 pt-2">

@@ -4,7 +4,7 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Digital Art",
+  title: "Digital Cart",
   description: "It is a NFT marketplace built using Ethereum blockchain",
 };
 
